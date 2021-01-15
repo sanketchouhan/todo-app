@@ -1,0 +1,60 @@
+.home {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right top,
+    #2b4570,
+    #614d8a,
+    #9e4d92,
+    #d74b84,
+    #ff5964
+  );
+}
+
+.left_div_large,
+.right_div_large {
+  height: 25rem;
+  width: 25rem;
+  background-color: #e9d086;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_div_small,
+.right_div_small {
+  height: 20rem;
+  width: 17rem;
+  background-color: #c8963e;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  color: #ffffff;
+}
+
+.right_div_small {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.sign_up_btn,
+.log_in_btn {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+}
+.sign_up_btn:hover,
+.log_in_btn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #c8963e;
+}

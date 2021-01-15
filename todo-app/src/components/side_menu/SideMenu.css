@@ -1,0 +1,25 @@
+.side_menu {
+  padding: 2rem;
+  min-width: 10vw;
+}
+
+.p_1,
+.p_2 {
+  margin: 0;
+}
+.p_2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  .p_2 {
+    margin-bottom: 1rem;
+  }
+  .tiles {
+    display: flex;
+    justify-content: space-between;
+  }
+}

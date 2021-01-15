@@ -1,0 +1,15 @@
+.tile {
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.title,
+.count {
+  margin: 0;
+}
+.title {
+  color: gray;
+}
+.count {
+  font-size: 2rem;
+  font-weight: 700;
+}

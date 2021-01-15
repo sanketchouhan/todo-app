@@ -1,0 +1,59 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+.box {
+  padding-top: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.modal_heading {
+  margin: 0;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input {
+  margin: 1rem 2rem;
+  width: 15rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+input:focus {
+  outline: none;
+}
+.btns {
+  width: 100%;
+  display: flex;
+}
+.save,
+.cancel {
+  flex: 1;
+  padding: 1rem 0;
+  text-align: center;
+}
+.save:hover,
+.cancel:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.save {
+  border-bottom-left-radius: 10px;
+}
+.cancel {
+  border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,38 @@
+.group {
+  margin: 0.8rem;
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgba(211, 211, 211, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+.group:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(211, 211, 211, 0.5);
+}
+
+.heading {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0.8rem;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.created_on,
+.last_active {
+  margin: 0;
+  padding: 0 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: gray;
+}
+.last_active {
+  padding-bottom: 0.8rem;
+}
